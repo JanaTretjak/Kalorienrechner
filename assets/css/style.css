@@ -66,5 +66,6 @@ th{
 @media (max-width:480px){
     section{
         border-radius: none;
+        height: 100vh;
     }
 }
