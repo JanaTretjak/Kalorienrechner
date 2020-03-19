@@ -66,9 +66,13 @@ th{
 }
 
 @media (max-width:460px){
+    body{
+        background: linear-gradient(rgb(188, 221, 231), rgb(13, 78, 109)) center/contain;
+        height: 100vh;
+    }
     section{
         border-radius: none;
-        height: 100vh;
+        background: none;
         width: 100%;
     }
     input{
