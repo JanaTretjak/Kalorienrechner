@@ -2,7 +2,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 section{
-    width: 350px;
+    width: 45vh;
     border-radius: 15px;
     background: linear-gradient(rgb(188, 221, 231), rgb(13, 78, 109));
     padding: 2vh;
@@ -46,7 +46,7 @@ input[type="button"]:focus{
 }
 table{
     padding: 1vh;
-    width: 340px;
+    width: 43vh;
     margin-top: 5vh;
     border: 1px solid rgb(98, 172, 201);
     opacity: 0.8;
@@ -61,4 +61,10 @@ td{
 th{
     border: 1px solid rgb(98, 172, 201);
     padding: 0.5vh;
+}
+
+@media (max-width:480px){
+    section{
+        border-radius: none;
+    }
 }
